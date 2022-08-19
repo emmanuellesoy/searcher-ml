@@ -1,6 +1,6 @@
 import React from "react";
 import { Stack, IconButton, TextField, Grid } from "@mui/material";
-
+import SearchIcon from '@mui/icons-material/Search';
 const styleStack = {
     backgroundColor: '#ffe600',
     display: 'flex',
@@ -14,7 +14,7 @@ const styleIconButton = {
     borderRadius: '0',
     backgroundColor: '#eeeeee',
     padding: '0 10px',
-}
+};
 
 const Searcher = () => {
     return(
@@ -44,7 +44,7 @@ const Searcher = () => {
                     <IconButton 
                     sx={styleIconButton}
                     size="small">
-                        b
+                        <SearchIcon />
                     </IconButton>
                 </Grid>
             </Grid>
